@@ -1,0 +1,25 @@
+{
+    "name": "orders",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon ./src/index.js",
+        "start": "node --watch ./src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@shreekanthlakka/common": "^1.0.11",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-validator": "^7.1.0",
+        "mongoose": "^8.4.3",
+        "mongoose-update-if-current": "^1.4.0",
+        "morgan": "^1.10.0",
+        "node-nats-streaming": "^0.3.2"
+    }
+}
